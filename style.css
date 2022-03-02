@@ -1,0 +1,146 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  width: 84%;
+  margin: auto;
+}
+.manu {
+  float: left;
+  width: 40%;
+}
+header {
+  background-image: url(img/landing-10.jpg);
+  height: 100%;
+  padding: 30px;
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  /* width: 150px; */
+}
+.logo img {
+  width: 80px;
+  margin-left: 70px;
+}
+header ul li {
+  float: left;
+  margin-right: 20px;
+  list-style-type: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: rgba(236, 240, 241, 0.6);
+}
+header ul li a:hover {
+  color: white;
+}
+
+header btn {
+  width: 30%;
+  overflow: hidden;
+}
+.btn button {
+  padding: 14px 26px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: white;
+  margin-right: 12px;
+}
+.btn-1 {
+  background-color: transparent;
+  border: 1px solid white;
+}
+.btn-2 {
+  background-color: rgba(52, 152, 219, 1);
+  border: transparent;
+}
+.header-info {
+  text-align: center;
+}
+.header-info img {
+  width: 100%;
+}
+.btn-3 {
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(52, 152, 219, 1);
+  border: transparent;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.header-info h3 {
+  font-size: 100;
+  color: white;
+  margin-bottom: 10px;
+}
+.main {
+  text-align: center;
+  margin-top: 35px;
+}
+p span {
+  background-color: #2980b9;
+  border-radius: 7px;
+  color: #fff;
+  padding: 7px 10px;
+}
+span a {
+  color: white;
+}
+.one {
+  width: 33.33%;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 115px;
+}
+.one img {
+  width: 330px;
+  height: 240px;
+  margin-top: 115px;
+  border-radius: 10px;
+}
+
+.one h3 {
+  margin-top: 30px;
+  color: #252525;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.middle-main {
+  text-align: center;
+}
+.middle-text {
+  font-weight: 100;
+  color: #252525;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.middle-last {
+  color: #808080;
+  font-size: 1.3rem;
+}
+.animation-1 i{
+    float: left;
+    font-size: 5rem;
+}
+.animation-1 i h4 p{
+  
+  /* float: left; */
+  /* width: 40%; */
+}
+/* .animation-2 i h4 p{
+  font-size: 5rem;
+  float: left;
+  margin-right: 20px;
+  width: 40%;
+} */
+.box-main {
+  border: 1px solid black;
+  padding: 35px;
+  float: left;
+}
